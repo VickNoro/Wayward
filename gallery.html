@@ -1,0 +1,435 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>LECNA website</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1" /><! tells the browser to set the screen width to the device width>
+	
+			<! _______________External Stylesheet links start _________________>
+			<link href="css/pageLayout.css" rel="stylesheet" type="text/css"/>
+			<link href="css/Mob-pageLayout.css" rel="stylesheet" type="text/css"/>
+			<link href="css/menuStyle.css" rel="stylesheet" type="text/css"/>
+			<link href="css/MobmenuStyle.css" rel="stylesheet" type="text/css"/>
+			<link href="css/gallery.css" rel="stylesheet" type="text/css"/>
+			<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+			<link href="http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400" rel="stylesheet" type="text/css"><! link for the google fonts >
+			<link href='https://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+			<link href='https://fonts.googleapis.com/css?family=Junge|Margarine|Offside|Hammersmith+One|Source+Sans+Pro|Satisfy|Bad+Script|Pontano+Sans' rel='stylesheet' type='text/css'>
+			<link href="fonts/style.css" rel="stylesheet" type="text/css"><! link for the google fonts >
+			 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+			<! _______________External Stylesheet links end  _________________>
+			
+			  <style>
+				.carousel-inner > .item > img,
+				.carousel-inner > .item > a > img {
+				width: 100%;
+				margin: 0;
+				}
+			</style>
+
+	</head>
+  
+			
+<!----------------------------------------  Header  --------------------------------------> 
+
+				<header>
+							<div id="center_layout">					
+									<div id="logo">
+										<a href="index.html"><img src="img/logo.png" alt="Logo" style="width:100%;border-radius: 9px 9px 9px 9px #333;margin:0"></a>
+									</div>
+									
+									<div id="lecna">
+										<p>Logan East Community Neighbourhood Centre</p>	
+									</div>
+									
+									<div id="slogan" style="font-size:15px;padding:10px">
+										<p>Building Better Lives!</p>	
+									</div>
+
+									<div class="donateButton">	
+										<p>Donate <br>here <i class="fa fa-dollar" style="font-size:17px;color:#FAE382;padding:5px;margin-top:2px"></i></p>																
+									</div>					
+							</div>		
+
+					
+						<div class="dropdown" style="visibility:hidden">	
+									<div class="container" onclick="myFunction(this)">
+											<div class="bar1"></div>
+											<div class="bar2"></div>
+											<div class="bar3"></div>
+									</div>
+
+									<script>
+										function myFunction(x) {
+										x.classList.toggle("change");
+										}
+									</script>
+
+											<div class="dropdown-content">
+												<a href="index.html"><i class="material-icons" style="font-size:14.5px;color:#FAE382">home  </i> Home</a>
+												<a href="about.html">About</a>
+												<a href="services.html">Services</a>
+												<a href="program.html">Program</a>
+												<a href="groups.html">Groups</a>
+												<a class="active" href="gallery.html">Gallery</a>
+												<a href="calendar.html">Calendar <i class="fa fa-calendar" style="font-size:14.5px;color:#FAE382"></i></a>
+												<a href="contact.html">Contact  <i class="material-icons" style="font-size:14.5px;color:#FAE382">call</i></a>
+												<a href="venue.html" >Venue Hire  <i class="material-icons" style="font-size:16px;color:#FAE382">store_mall_directory</i></a>
+												<a href="donation.html">Donation <i class="fa fa-dollar" style="font-size:14.5px;color:#FAE382"></i></a>
+											</div>							
+						</div>	
+	
+				</header>
+				
+<!----------------------------------------  Header  --------------------------------------> 	
+		  
+<!----------------------------------------  Navigation  --------------------------------------> 	
+
+						<div id="nav">
+								<div id="center_layout">						
+
+										<div id="main_menu">
+											<ul style="font-size: 15px">	
+												<li ><a href="index.html"><i class="material-icons" style="font-size:14.5px;color:#FAE382">home  </i> Home</a></li>
+												<li><a href="about.html">About</a></li>
+												<li><a href="services.html">Services</a></li>
+												<li><a href="program.html">Program</a></li>
+												<li><a href="groups.html">Groups</a></li>
+												<li><a class="active" href="gallery.html">Gallery</a></li>
+											</ul>
+										</div>	
+		
+										<div id="second_menu">
+											<ul style="font-size: 15px">	
+												<li><a href="venue.html" >Venue Hire  <i class="material-icons" style="font-size:14.5px;color:#FAE382">store_mall_directory</i></a></li>
+												<li><a href="calendar.html">Calendar <i class="fa fa-calendar" style="font-size:14.5px;color:#FAE382"></i></a></li>										
+												<li><a href="contact.html">Contact  <i class="material-icons" style="font-size:14.5px;color:#FAE382">call</i></a></li>
+											</ul>
+										</div>	
+
+								</div>
+						</div>					
+<!----------------------------------------  Navigation  --------------------------------------> 	
+						
+<!----------------------------------------  Body  --------------------------------------> 				
+	<body> 
+					<div id="top_gap">
+					</div><br>
+					
+
+			<div id="center_layout">			
+			<div id="infoSlide">
+					<p>Gallery</p>	
+			</div>
+					
+	
+					<div class="w3-row-padding w3-margin-top">
+
+						<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+							
+							<div class="w3-modal-content w3-animate-zoom">
+								<img id="img01" style="width:100%">
+								<span class="w3-closebtn w3-hover-red w3-text-white w3-xxlarge w3-container w3-display-topright">&times;</span>
+								<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:52%;left:0" onclick="plusSlides(-1)">❮</a>
+								<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:52%;right:0" onclick="plusSlides(1)">❯</a>
+							</div>
+						</div>
+
+					<script>
+						function onClick(element) {
+						document.getElementById("img01").src = element.src;
+						document.getElementById("modal01").style.display = "block";
+						}
+					</script>
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<div class="album_slide">
+										<img src="img/Gallery/craft.jpg" style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+									<div class="w3-container">								
+										<h4>Craft</h4>
+									</div>
+									</div>
+								
+							</div>
+						</div>
+
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/team.jpg" style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Staff and Volunteers</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg"  style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Bingo Night</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				<div class="w3-row-padding w3-margin-top">	
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/craft.jpg" id="img01"style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Craft</h4>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg" style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>For Sale</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg"  style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Bingo Night</h4>
+								</div>
+							</div>
+						</div>
+				</div>
+
+				<div class="w3-row-padding w3-margin-top">	
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/craft.jpg" id="img01"style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Craft</h4>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg" style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>For Sale</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg"  style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Bingo Night</h4>
+								</div>
+							</div>
+						</div>						
+					</div>
+					
+				<div class="w3-row-padding w3-margin-top">	
+					<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/craft.jpg" id="img01"style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Craft</h4>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg" style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>For Sale</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg"  style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Bingo Night</h4>
+								</div>
+							</div>
+						</div>
+				</div>
+					
+				<div class="w3-row-padding w3-margin-top">	
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/craft.jpg" id="img01"style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Craft</h4>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg" style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>For Sale</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg"  style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Bingo Night</h4>
+								</div>
+							</div>
+						</div>
+				</div>
+
+				<div class="w3-row-padding w3-margin-top">	
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/craft.jpg" id="img01"style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Craft</h4>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg" style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>For Sale</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="w3-third">
+							<div class="w3-card-2">
+								<img src="img/Gallery/sale.jpg"  style="width:100%;cursor:pointer;padding:5px" onclick="onClick(this)" class="w3-hover-opacity">
+								<div class="w3-container">
+									<h4>Bingo Night</h4>
+								</div>
+							</div>
+						</div>						
+					</div>
+		</div>
+		
+							<script>
+						var slideIndex = 1;
+						showSlides(slideIndex);
+
+						function plusSlides(n) {
+						showSlides(slideIndex += n);
+						}
+
+						function currentSlide(n) {
+						showSlides(slideIndex = n);
+						}
+
+						function showSlides(n) {
+						var i;
+						var slides = document.getElementsByClassName("mySlides");
+						var dots = document.getElementsByClassName("dot");
+						if (n > slides.length) {slideIndex = 1}    
+						if (n < 1) {slideIndex = slides.length} ;
+						for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";  
+						}
+						for (i = 0; i < dots.length; i++) {
+						dots[i].classList.remove("active");
+						}
+						slides[slideIndex-1].style.display = "block";  
+						dots[slideIndex-1].classList.add("active");
+						}
+					</script>
+	</body> 
+<!----------------------------------------  Body  --------------------------------------> 
+		
+<!----------------------------------------  Footer --------------------------------------> 	
+		<footer>
+					<div id="center_layout" >			
+							<div id="iconConnect">
+								<a href="https://www.facebook.com/Logan-East-Community-Neighbourhood-Centre-304911799645087/"><i class="fa fa-facebook-official" style="font-size:29px;color:#2A82BA"></i></a> 
+								<a href="#"><i class="fa fa-envelope" style="font-size:30px;color:#FAE382"></i></a> 
+								<a href="contact.html"><i class="material-icons" style="font-size:30px;margin-top:5px;color:green">place</i></a> 
+								<a href="#"><i class="material-icons" style="font-size:23px;color:#2F93DC">call</i></a> 
+							</div>
+					</div>
+					
+					<div class="footerContent">			
+							<div class="footList" style="text-align:left;float:left">
+								<h3>Contact us </h3>
+								<p><b>Logan East Community<br> 
+								Neighbourhood Centre</b><br> 
+								Cnr 53-55 Cinderella Dr <br> 
+								and Vanessa Blvd<br> 
+								Springwood<br>
+								Logan City<br> 
+								Qld 4127 <br>
+								Australia
+								</p>
+								<p>Ph: 07 3808 4549 <br> 
+								Fax: 07 3290 3485
+								<p>E-mail: lecna@lecna.org.au 
+								</p>
+								<p><b>Opening Hours</b><br> 
+								Monday to Thursday from 9:00am to 4:00pm<br> 
+								Friday from 9:00am to 12noon
+								</p>
+							</div>
+											
+							<div class="footList" style="width:150px;text-align:center">
+								<br><h3>Sitemap</h3>
+									<p>Home</p>
+									<p>About us</p>
+									<p>Services</p>
+									<p>Groups</p>
+									<p>Gallery</p>
+									<p>Calendar</p>
+									<p>Donation</p>
+									<p>Venue Hire</p>
+									<p>Contact us</p>
+							</div>
+							
+							<div class="footList" style="text-align:right;float:right" >
+								<h3>Sponsors</h3>
+									<p>Ace Locksmiths | A & B Communications </p>
+									<p>Arndale Centre Management | AFL Club</p>
+									<p>Auto Fleet Serve | Sun Prints</p>
+									<p>Mick de Brenni MP | Logan City Council </p>
+									<p>Integrity Storage | Printer Facts</p>
+									<p>Logan Funerals | Mortgage Choice</p>
+									<p>Rochedale-Springwood Lions</p> 
+									<p>Safety Inductions ( Training )</p>
+									<p>Storage King |	Topdog Systems Pty Ltd</p>
+									<p>Quest Community Newspaper</p>
+							</div>
+				</div>	
+
+							<div id="copyright">					
+								<p>All details are subject to change. Please contact LECNA on Ph: 07 3808 4529 to confirm.<br>
+								Copyright ©2015 Logan East Community Neighbourhood Association 
+								Inc. All Rights Reserved</p>		
+							</div>	
+		</footer>
+<!------------------------------------------- Footer ---------------------------------------> 	
+<! _______________Footer content end _________________>	
+
+
+</html> 
+
